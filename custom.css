@@ -1,0 +1,52 @@
+
+/* Custom code */
+.rca-product-quantity{
+  border: none;
+}
+.header--top-center {
+  position: absolute;
+  width: 100%;
+  margin-top: 20px;
+}
+.header__icon .icon {
+  color: white;
+  width: 7rem;
+  height: 7rem;
+}
+.header__icon--search {
+  display: none;
+}
+.text-align--webkit-center{
+  text-align:-webkit-center;
+}
+.shogun-qty input, .shogun-qty button{
+  color: #2E2E2E;
+  background: #FFFBF3;
+  font-family: 'Adelon Serial';
+}
+
+@media only screen and (max-width: 600px) {
+  .header--mobile-center .header__heading-logo-wrapper{
+    width: 30px;
+  }
+  .mobile-20-80 .shg-row{
+    display: grid;
+    grid-template-columns: 20% 80%;
+  }
+  .mobile-20-80 .shg-row .shg-c-xs-6{
+    width: 100% !important;
+  }
+  .transfrom--mobile{
+    transform: scale(1.5);
+  }
+  .header--mobile-center .header__heading-logo-wrapper img {
+      width: 100%;
+      height: auto;
+  }
+}  
+
+@media only screen and (min-width: 600px) {
+  .taco-throne svg.icon.icon-cart {
+      color: #2E2E2E;
+  }  
+}
